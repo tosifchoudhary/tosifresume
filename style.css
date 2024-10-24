@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    width:1050px;
+    height:1390px;
+    display: flex;
+    margin: auto;
+   
+}
+.left{
+    width:35%;
+    height:100%;
+    border-radius:20px 0px 0px 20px;
+    padding:30px;
+   background-color:#436850;
+   color: white;
+   border:1px solid #436850;
+   
+}
+.right{
+    width:65%;
+    height:100%;
+    border-radius:0px 20px 20px 0px;
+    padding:30px;
+    border:1px solid #436850;
+}
+.profile{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    background-image: url('image/profile\ imagre.png');
+    background-size: cover;
+    margin: auto;
+    
+}
+h1{
+    font-size:3rem;
+    text-align: center;
+}
+h4{
+    padding:20px 0px 10px 0px;
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    text-align: center;
+    font-size:1.5rem;
+
+}
+h5{
+    padding:15px 0px 8px 0px;
+    font-size:2rem;
+    color: black;
+}
+ul{
+    padding:0px 0px 20px 0px;
+}
+ul li{
+    list-style: none;
+    line-height:25px;
+    color:white;
+   letter-spacing:1px;
+   font-size:1.4rem;
+    
+}
+ul li i{
+   margin-right:10px;
+   font-size:1.5rem;
+}
+meter{
+    margin:0px 0px 10px 0px;
+}
+#heading{
+    font-size:2.5rem;
+    font-weight:900;
+    font-family:'Times New Roman', Times, serif;
+}
+p{
+    line-height:29px;
+    text-align: justify;
+    padding:8px 0px 0px 0px;
+    font-size:1.8rem;
+    color:#36352f;
+    font-weight: none;
+}
+#education{
+    font-size:2.5rem;
+    font-weight:900;
+    font-family:'Times New Roman', Times, serif;
+    padding:15px 0px 10px 0px;
+    
+}
+h3{
+    font-size:1.7rem;
+}
+dd{
+    font-size:1.5rem;
+}
+.project{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+}
+.box{
+    margin-bottom:5px;
+    padding:8px 5px 8px 5px;
+    background-color:#436850;
+    border-radius:10px;
+    color: white;
+    font-size:1.2rem;
+}
+#link{
+    color: white;
+    font-size:1.2rem;
+
+}
+.edu{
+    margin-bottom:10px;
+}
+dl dd{
+    margin-left:10px;
+}
